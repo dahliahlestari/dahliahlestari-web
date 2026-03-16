@@ -1,0 +1,155 @@
+.software {
+  padding: 8rem 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.software-skill-label {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 300;
+  z-index: 10;
+}
+
+.software-skill-label .bullet-diamond {
+  font-size: 0.5rem;
+}
+
+.software-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.software-text-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.text-row {
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.1);
+  white-space: nowrap;
+}
+
+.text-row.outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+.text-row.highlight {
+  color: var(--text-primary);
+}
+
+.software-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.sw-img-card {
+  position: absolute;
+  /* Remove border/bg since images have their own transparency */
+  transform-origin: center;
+  transition: transform 0.5s ease;
+  z-index: 5;
+}
+
+.sw-img-card:hover {
+  transform: scale(1.05) rotate(0deg) !important;
+  z-index: 10;
+}
+
+.card-1 {
+  width: 320px;
+  height: 400px;
+  right: 15%;
+  top: 10%;
+  transform: rotate(15deg);
+}
+
+.card-2 {
+  width: 250px;
+  height: 300px;
+  left: 15%;
+  bottom: 20%;
+  transform: rotate(-10deg);
+}
+
+.placeholder-merch {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: drop-shadow(20px 20px 30px rgba(0,0,0,0.8));
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+/* Add hover interaction to the card to brighten the image */
+.sw-img-card:hover .placeholder-merch {
+  opacity: 1;
+}
+
+.software-bottom-btn {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.show-more-btn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  font-style: italic;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: var(--bg-primary);
+}
+
+.show-more-btn:hover {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+@media (max-width: 768px) {
+  .card-1 {
+    right: 5%;
+    width: 200px;
+    height: 250px;
+  }
+  .card-2 {
+    left: 5%;
+    width: 150px;
+    height: 180px;
+  }
+}
