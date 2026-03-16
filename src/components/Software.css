@@ -141,15 +141,27 @@
   color: var(--bg-primary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  .software {
+    padding: 4rem 0;
+  }
+  .software-skill-label {
+    top: 5%;
+    left: 5%;
+  }
+  .text-row {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
   .card-1 {
     right: 5%;
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 230px;
+    top: 20%;
   }
   .card-2 {
     left: 5%;
-    width: 150px;
+    width: 140px;
     height: 180px;
+    bottom: 20%;
   }
 }

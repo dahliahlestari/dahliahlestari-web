@@ -208,12 +208,40 @@
 }
 
 @media (max-width: 900px) {
+  .intro {
+    padding: 4rem 0;
+  }
+  
   .intro-visual-column {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
   
   .intro-images {
-    height: 400px;
+    height: 350px;
+    margin-bottom: 1rem;
+  }
+
+  .img-1 {
+    width: 60%;
+    height: 80%;
+    top: 0;
+  }
+
+  .img-2 {
+    width: 55%;
+    height: 90%;
+    left: auto;
+    right: 0;
+    top: 10%;
+  }
+
+  .expertise-title {
+    font-size: 2.5rem;
+  }
+
+  .expertise-details {
+    max-width: 100%;
+    margin-left: 0;
   }
 }

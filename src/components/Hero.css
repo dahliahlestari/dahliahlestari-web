@@ -197,5 +197,15 @@
   .hero-bottom-right {
     position: static;
     margin-top: 3rem;
+    align-self: flex-start;
+  }
+  .hero-title {
+    font-size: clamp(3rem, 12vw, 5rem);
+  }
+  .hero-title .serif-normal {
+    font-size: clamp(2.5rem, 10vw, 4rem);
+    display: block;
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 }
