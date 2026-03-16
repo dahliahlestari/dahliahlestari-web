@@ -43,7 +43,7 @@
 }
 
 .img-1 {
-  width: 50%;
+  width: 47%;
   height: 85%;
   top: 15%;
   left: 0;
@@ -52,10 +52,10 @@
 }
 
 .img-2 {
-  width: 50%;
+  width: 47%;
   height: 100%;
   top: 0;
-  left: 45%; /* Moved next to img-1 instead of right aligned */
+  left: 53%; /* Creates a 6% gap between img-1 and img-2 */
   z-index: 1;
 }
 
@@ -223,13 +223,14 @@
   }
 
   .img-1 {
-    width: 60%;
+    width: 48%;
     height: 80%;
     top: 0;
+    left: 0;
   }
 
   .img-2 {
-    width: 55%;
+    width: 48%;
     height: 90%;
     left: auto;
     right: 0;
