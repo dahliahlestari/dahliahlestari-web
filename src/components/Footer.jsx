@@ -12,9 +12,9 @@ const Footer = () => {
 
         <div className="footer-main">
           <div className="footer-left">
-            <p>For more info about projects or</p>
-            <p>collaborations, please drop a message or contact</p>
-            <p>me through my personal chat contact below.</p>
+            <p>I am a designer, but I am more than that.</p>
+            <p>I create visual content, craft digital experiences,</p>
+            <p>and build strategies that help brands grow in the digital world..</p>
 
             <div className="social-links mt-4">
               <a href="#" className="social-icon">Instagram</a>
