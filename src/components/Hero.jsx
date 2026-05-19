@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="hero-play-block">
-            <div className="play-btn">▶</div>
+            <div className="play-btn">・</div>
             <span className="play-text">Life in Focus</span>
           </div>
         </div>

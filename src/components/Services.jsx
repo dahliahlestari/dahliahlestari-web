@@ -9,7 +9,7 @@ const Services = () => {
 
         <div className="services-header">
           <div className="skill-label">
-            <span className="bullet-diamond">♦</span>
+            <span className="bullet-diamond">・</span>
             <span className="skill-text">What I Do</span>
           </div>
           <h2 className="services-title">
@@ -70,7 +70,7 @@ const Services = () => {
 
           <div className="card-right">
             <div className="card-title-block">
-              <span className="bullet-diamond">♦</span>
+              <span className="bullet-diamond">・</span>
               <span className="about-us-label">About Us</span>
             </div>
             <h3 className="feature-title">I Create Visual Content That<br />Drives Digital Growth</h3>
