@@ -15,43 +15,27 @@ const Portfolio = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: "Creative Commercial Reels",
+      title: "Education video Reels",
       category: "video",
-      description: "Short-form advertising video focusing on brand engagement and aesthetic storytelling.",
+      description: "Short-form advertising video focusing on Education engagement and aesthetic storytelling.",
       image: artImage,
-      link: "https://www.instagram.com/reel/C8r2Lp8tU8s/"
+      link: "https://www.instagram.com/reel/DEoyhHDpVga/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     },
     {
       id: 2,
       title: "Visual Brand Identity",
       category: "design",
-      description: "Experimental conceptual designs, combining vintage and modern elements.",
+      description: "Experimental conceptual designs, BNW modern elements.",
       image: artboard1,
-      link: "https://www.instagram.com/p/C3M8WpPyH4H/"
+      link: "https://www.instagram.com/special.idl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     },
     {
       id: 3,
-      title: "Meta Ads & Social Campaign",
-      category: "ads",
-      description: "Performance-driven Meta Ads creative design and audience optimization strategy.",
-      image: artboard2,
-      link: "https://www.instagram.com/p/CwYd1Uht9yA/"
-    },
-    {
-      id: 4,
       title: "Product Showcase",
       category: "video",
       description: "A high-fidelity Product video edit With smooth transitions.",
       image: artboard3,
       link: "https://www.instagram.com/reel/DThSPyKEulJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-    },
-    {
-      id: 5,
-      title: "Interactive Social Media Layouts",
-      category: "design",
-      description: "Aesthetic Instagram carousel layout design tailored to grow organic followers.",
-      image: weImage,
-      link: "https://www.instagram.com/p/CuP0-dht5U8/"
     },
   ];
 
@@ -116,12 +100,6 @@ const Portfolio = () => {
             onClick={() => setActiveFilter('design')}
           >
             Graphic Design
-          </button>
-          <button
-            className={`filter-btn ${activeFilter === 'ads' ? 'active' : ''}`}
-            onClick={() => setActiveFilter('ads')}
-          >
-            Social Media Ads
           </button>
         </div>
 
