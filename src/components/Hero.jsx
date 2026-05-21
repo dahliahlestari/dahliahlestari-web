@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-bottom-right fade-in">
-          <div className="view-portfolio-btn">View Portofolio</div>
+          <a href="#portfolio" className="view-portfolio-btn">View Portofolio</a>
         </div>
       </div>
     </section>
