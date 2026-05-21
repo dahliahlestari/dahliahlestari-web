@@ -47,20 +47,19 @@ const Portfolio = () => {
     {
       category: "Creative & Production",
       skills: [
-        { name: "Videography & Reels", level: 90 },
-        { name: "Video Editing (Davinci & Premiere)", level: 95 },
-        { name: "Photography & Art Direction", level: 85 },
-        { name: "Graphic Design & Branding", level: 90 },
-        { name: "Visual Storytelling", level: 92 }
+        { name: "Videography & Reels", level: 95 },
+        { name: "Video Editing (Capcut, Davinci & Premiere)", level: 90 },
+        { name: "Photography & Art Direction", level: 90 },
+        { name: "Graphic Design & Branding", level: 85 },
+        { name: "Visual Storytelling", level: 80 }
       ]
     },
     {
       category: "Marketing & Strategy",
       skills: [
-        { name: "Meta Ads (FB & IG)", level: 88 },
-        { name: "Social Media Strategy", level: 90 },
-        { name: "Content Planning & Optimization", level: 92 },
-        { name: "Copywriting & Scripting", level: 85 },
+        { name: "Meta Ads (FB & IG)", level: 80 },
+        { name: "Social Media Strategy", level: 70 },
+        { name: "Content Planning & Optimization", level: 75 },
         { name: "Audience Target Research", level: 87 }
       ]
     }
@@ -134,7 +133,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="card-link"
                 >
-                  Tonton di Instagram
+                  View
                   <svg className="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
                     <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   </svg>
