@@ -125,6 +125,8 @@
 }
 
 .show-more-btn {
+  display: inline-block;
+  text-decoration: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
@@ -139,6 +141,7 @@
 .show-more-btn:hover {
   background: var(--text-primary);
   color: var(--bg-primary);
+  opacity: 1;
 }
 
 @media (max-width: 900px) {

@@ -36,7 +36,7 @@ const Software = () => {
         </div>
       </div>
       <div className="software-bottom-btn">
-        <div className="show-more-btn">Show More Work</div>
+        <a href="#portfolio" className="show-more-btn">Show More Work</a>
       </div>
     </section>
   );
